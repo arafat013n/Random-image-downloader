@@ -24,7 +24,13 @@ header {
    color: #fff;
    padding: 20px 0px;
    row-gap: 10px;
-   margin-bottom: 50px;
+   margin-bottom: 20px;
+}
+
+.alert {
+   text-align: center;
+   color: red;
+   padding: 0px 6px;
 }
 
 .container {
@@ -56,7 +62,7 @@ footer {
 footer h3,
 footer h5 {
    text-align: center;
-   padding: 20px 0px;
+   padding-top: 20px;
 }
 
 footer div {
