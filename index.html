@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <title>HTML</title>
+
+   <!-- HTML -->
+
+
+   <!-- Custom Styles -->
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header>
+      <h2>Random Image Downloader</h2>
+      <h6>It's a online tool for downloading random photos from Unsplash </h6>
+   </header>
+   <div class="container">
+      <img src="https://source.unsplash.com/random/500x500" width="80%" alt="image">
+   </div>
+   <div class="container2">
+      <button onclick="window.location.reload()">Refresh</button>
+      <button id="downloadBtn">Download</button>
+   </div>
+   <!-- Project -->
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+   <script src="main.js"></script>
+</body>
+
+</html>
