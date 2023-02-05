@@ -45,3 +45,31 @@ header {
 .container2 {
    row-gap: 10px;
 }
+
+footer {
+   background-color: #2F3254;
+   margin-top: 20px;
+   width: 100%;
+   padding: 30px;
+}
+
+footer h3,
+footer h5 {
+   text-align: center;
+   padding: 20px 0px;
+}
+
+footer div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+footer div ion-icon {
+   font-size: 26px;
+}
+
+footer h5 {
+   opacity: 0.6;
+}
